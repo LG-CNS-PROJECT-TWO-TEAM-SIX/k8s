@@ -1,6 +1,0 @@
-apiVersion: v1
-name: news-service
-description: Helm chart
-version: 0.1.0
-appVersion: "0.0.2"
-
