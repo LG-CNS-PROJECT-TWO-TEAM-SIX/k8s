@@ -19,7 +19,7 @@ spec:
             items:
               - key: application-dev.yml
                 path: application-dev.yml
-        - name: backend-post-secret-volume
+        - name: news-secret-volume
           secret:
             secretName: news-secret
             items:
