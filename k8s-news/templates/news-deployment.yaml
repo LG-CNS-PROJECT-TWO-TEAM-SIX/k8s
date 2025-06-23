@@ -23,7 +23,7 @@ spec:
           secret:
             secretName: news-secret
             items:
-              - key: news-secret.yml
+              - key: news-secret.yaml
                 path: news-secret.yml
       containers:
         - name: news-service
