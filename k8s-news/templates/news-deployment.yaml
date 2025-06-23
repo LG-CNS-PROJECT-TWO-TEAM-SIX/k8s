@@ -23,8 +23,8 @@ spec:
           secret:
             secretName: news-secret
             items:
-              - key: application-secret.yml
-                path: application-secret.yml
+              - key: news-secret.yml
+                path: news-secret.yml
       containers:
         - name: news-service
           image: parangg/news-service:0.0.2
