@@ -8,10 +8,10 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: localhost
+    - host: {{ .Values.ingress.host }}
       http:
         paths:
-          - path: /news
+          - path: {{ .Values.ingress.path }}
             pathType: Prefix
             backend:
               service:
