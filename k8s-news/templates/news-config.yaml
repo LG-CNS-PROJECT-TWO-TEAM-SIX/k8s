@@ -16,6 +16,7 @@ data:
           validation-timeout: 5000
 
       jpa:
+        database-platform: org.hibernate.dialect.MariaDBDialect
         hibernate:
           ddl-auto: create  # 오직 테스트 환경에서만
         generate-ddl: true   # 오직 테스트 환경에서만 (spring.jpa.generate-ddl)
